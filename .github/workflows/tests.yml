@@ -25,6 +25,5 @@ jobs:
     
     - name: Run tests
       run: |
-        echo "=== app papkasiga o'tish ==="
-        cd app
-        python -m pytest test_subscription.py -v
+        # tests papkasidagi testlarni ishga tushirish
+        python -m pytest tests/ -v
