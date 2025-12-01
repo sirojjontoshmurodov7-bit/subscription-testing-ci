@@ -23,3 +23,4 @@ def test_cancel_from_active():
     s.activate()
     s.cancel()
     assert s.state == "canceled"
+print("GitHub Actions test ishladi!")
